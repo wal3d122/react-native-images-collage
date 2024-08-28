@@ -558,6 +558,7 @@ class CollageImage extends React.Component {
 
     const right = animating ? this.animatedX : panningX;
     const bottom = animating ? this.animatedY : panningY;
+    console.log('Hello, I am a collage image Object rendered!!')
 
     return (
       <View
